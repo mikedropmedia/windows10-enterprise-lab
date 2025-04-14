@@ -1,0 +1,51 @@
+# .gitignore for Windows 10 VirtualBox Lab Project
+# Author: mdMedia
+# Created: April 2025
+
+# Windows system clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Shortcuts and links
+*.lnk
+
+# VirtualBox-related files
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.iso
+
+# Lab-specific artifacts
+*.log
+*.tmp
+*.bak
+*.lock
+*.old
+*.swp
+
+# Don't track backup/snapshot or dump files
+*.dmp
+*.sav
+*.snl
+*.snapshot
+
+# Python virtualenvs (if any lab scripts use Python)
+env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS system files (in case of editing from Mac)
+.DS_Store
+
+# Ignore markdown editor autosaves
+*.~md
