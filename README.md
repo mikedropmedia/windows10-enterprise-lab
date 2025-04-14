@@ -1,10 +1,3 @@
----
-Version: 1.0.0  
-Date: April 2025  
-Author: mdMedia  
-Status: Snapshot-ready base lab created
----
-
 # Windows 10 Enterprise Lab
 
 This repo documents the full setup and evolution of my personal lab environment using Windows 10 Education (Enterprise equivalent) inside VirtualBox.
